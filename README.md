@@ -26,3 +26,6 @@ Output:
 	count: 5 // Total number of transactions
 }
 ```
+The service needs to handle concurrent requests and be thread safe. No persistance layer can be used i.e no database or in memory databases can be used.
+
+The endpoints have to execute in constant time and memory (O(1))
